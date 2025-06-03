@@ -562,7 +562,6 @@
 
 
 <!-- Modal Pedir Cita -->
-<!-- Modal Cita -->
 <div class="modal fade" id="modalCita" tabindex="-1" aria-labelledby="modalCitaLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -571,31 +570,31 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
       </div>
       <div class="modal-body">
-            <form action="https://formspree.io/f/xjkrvpqq" id="form-cita" method="POST">
-              <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre completo</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" required>
-              </div>
-              <div class="mb-3">
-                <label for="correo" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="correo" name="correo" required>
-              </div>
-              <div class="mb-3">
-                <label for="telefono" class="form-label">Teléfono</label>
-                <input type="tel" class="form-control" id="telefono" name="telefono" required>
-              </div>
-              <div class="mb-3">
-                <label for="fecha" class="form-label">Fecha deseada</label>
-                <input type="date" class="form-control" id="fecha" name="fecha" required>
-              </div>
-              <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje adicional</label>
-                <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
-              </div>
-              <div class="d-grid">
-                <button type="submit" class="btn text-uppercase" style="background-color: #29b4dc; color: white;">ENVIAR CITA ONLINE</button>
-              </div>
-            </form>
+        <form id="form-cita" action="https://formspree.io/f/mzzgbloe" method="POST">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="correo" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="telefono" name="telefono" required>
+          </div>
+          <div class="mb-3">
+            <label for="fecha" class="form-label">Fecha deseada</label>
+            <input type="date" class="form-control" id="fecha" name="fecha" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje adicional</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn text-uppercase" style="background-color: #29b4dc; color: white;">ENVIAR CITA ONLINE</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
